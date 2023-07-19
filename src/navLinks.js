@@ -1,7 +1,3 @@
-{
-  /* <script> */
-}
-
 window.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll(".sticky-nav-link");
   //console.log(navLinks)
@@ -15,7 +11,6 @@ window.addEventListener("DOMContentLoaded", () => {
     navLinks.forEach((link) => {
       link.classList.remove("active");
     });
-
     // Set the clicked link as active
     event.target.classList.add("active");
   }
@@ -25,7 +20,3 @@ window.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", handleClick);
   });
 });
-
-{
-  /* </script> */
-}
